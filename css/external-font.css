@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Margarita;
+  src: url("../font/margaritascript.ttf"); /* IE9 Compat Modes */
+}
+.h2-margarita {
+  font-family: Margarita;
+  font-size: 80px !important;
+  font-weight: 600;
+}
