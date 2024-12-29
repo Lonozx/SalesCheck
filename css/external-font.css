@@ -7,3 +7,11 @@
   font-size: 80px !important;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .h2-margarita {
+    font-family: Margarita;
+    font-size: 40px !important;
+    font-weight: 600;
+  }
+}
