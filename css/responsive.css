@@ -79,6 +79,17 @@ Filename      : responsive.css
   .porfoliowarp__item {
     width: 100%;
   }
+  .buyitem {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid #59191f;
+    background: #59191f;
+    color: white;
+    border-radius: 35px;
+    padding: 10px;
+    width: 130px;
+  }
 }
 
 @media only screen and (max-width: 699px) {
