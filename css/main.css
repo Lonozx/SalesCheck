@@ -236,8 +236,8 @@ textarea {
 }
 
 .navpage__wrap li a.activelink {
-  color: #ffffff;
-  background: #59191f;
+  /* color: #ffffff;
+  background: #59191f; */
 }
 
 .navicon {
