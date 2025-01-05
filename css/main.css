@@ -307,9 +307,9 @@ textarea {
   z-index: 2;
   top: -100%;
   display: none;
-  background: #ffdb67;
+  background: #f5f5dc;
   padding: 80px 0 30px 0;
-  border-bottom: 1px solid #ddaa01;
+  border-bottom: 1px solid #f5f5dc;
 }
 
 .overlay__listnav {
@@ -391,7 +391,7 @@ textarea {
   text-transform: uppercase;
 }
 .heroimg__poto {
- background: #f5f5dc;
+  background: #f5f5dc;
 }
 .herolink {
   display: inline-block;
