@@ -79,6 +79,9 @@ Filename      : responsive.css
   .porfoliowarp__item {
     width: 100%;
   }
+  .infohero{
+    padding-right: 10px;
+  }
   .itemshack .porfoliowarp__item {
     display: flex;
     flex-direction: column;
