@@ -65,13 +65,14 @@ body {
   font-family: "Montserrat", serif;
   font-size: 15px;
   font-weight: 400;
-  background: #ffdb67;
+  background: #705e4c;
   color: #181715;
   text-rendering: optimizeLegibility;
 }
 
 ::selection {
-  background: #ddaa01;
+  /* background: #ddaa01; */
+  background: #705e4c;
   color: #ffffff;
 }
 
@@ -89,22 +90,28 @@ label {
   font-weight: 600;
   text-transform: uppercase;
 }
+#my-form-status {
+  color: lightgreen;
+  text-decoration: underline;
+}
 
 input,
 textarea {
   padding: 10px;
   font-size: 13px;
   width: 100%;
-  color: #181715;
+  color: #f5f5dc;
   background: transparent;
-  border: 2px solid rgba(25, 26, 30, 0.5);
+  border: 2px solid #f5f5dc;
   border-radius: 3px;
 }
 
 textarea {
   height: 150px;
 }
-
+/* .palsection svg {
+  background: #59191f;
+} */
 .goverlay {
   background: #ffdb67;
 }
@@ -137,7 +144,8 @@ textarea {
   border: none;
   width: 20px;
   height: 2px;
-  background: #ddaa01;
+  /* background: #ddaa01; */
+  background: #f5f5dc;
   border-radius: 3px;
   margin: 10px 5px;
   padding: 3px;
@@ -157,13 +165,16 @@ textarea {
 - preloader
 * ----------------------------------------------------------------------------------------
 */
-
+.fa-brands {
+  color: #f5f5dc;
+}
 .preloader {
   position: fixed;
   width: 100%;
   height: 100%;
   z-index: 999999999 !important;
-  background-color: #ddaa01;
+  /* background-color: #ddaa01; */
+  background-color: #f5f5dc;
   top: 0;
   left: 0;
   right: 0;
@@ -380,8 +391,7 @@ textarea {
   text-transform: uppercase;
 }
 .heroimg__poto {
-  background-image: url("../asset/hero/businesswoman.png");
-  background-position: left;
+ background: #f5f5dc;
 }
 .herolink {
   display: inline-block;
@@ -398,13 +408,18 @@ textarea {
 .itemshack .porfoliowarp__item {
   display: flex;
   flex-direction: column;
+  gap: 30px;
 }
 /*
 * ----------------------------------------------------------------------------------------
 * 04.ABOUT SECTION. 
 * ----------------------------------------------------------------------------------------
 */
-
+#servicesection {
+  background: #705e4c !important;
+  height: auto;
+  padding: 0 0 0;
+}
 #aboutsection {
   height: auto;
   /* background: #ffffff; */
@@ -414,18 +429,64 @@ textarea {
 #palsection {
   /* padding: 50px 0 0; */
   padding-bottom: 100px;
+  background: #f5f5dc;
 }
-
+#sectionhero {
+  padding: 100px 0 0;
+  background: #705e4c;
+}
+.fixid {
+  background: #f5f5dc;
+  box-shadow: 0 0 10px 5px #705e4c !important;
+}
+.servicesection {
+  background: #705e4c !important;
+}
+#headermain {
+}
+.infohero__title {
+  text-shadow: none !important;
+}
+.heroimg .heroimg__poto {
+  border-radius: 100%;
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  box-shadow: none !important;
+  border: 7px solid;
+}
+.infohero .h2-margarita {
+  color: #f5f5dc;
+}
+.hidden {
+  display: none;
+}
+.paypal {
+  display: flex;
+  justify-content: center;
+}
 .buyitem {
   display: flex;
   justify-content: center;
   align-self: center;
-  border: 1px solid #59191f;
-  background: #59191f;
+  /* border: 1px solid #59191f;
+  background: #59191f; */
   color: white;
   border-radius: 35px;
   padding: 10px;
   width: 200px;
+  position: relative;
+}
+.itemspan {
+  /* display: flex;
+  justify-content: center;
+  align-self: center; */
+  border: 1px solid #59191f;
+  background: #59191f;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 40%;
 }
 .abouthero h3 {
   font-size: 50px;
@@ -469,10 +530,17 @@ textarea {
 .wrapservice {
   padding: 20px;
 }
+.wrapservice h3 {
+  color: #f5f5dc;
+}
+.wrapservice p {
+  color: #f5f5dc;
+}
 
 .wrapservice i {
   font-size: 30px;
-  background: #ddaa01;
+  /* background: #ddaa01; */
+  background: #f5f5dc;
   padding: 20px 20px;
   border-radius: 100%;
 }
@@ -578,8 +646,16 @@ textarea {
 
 #contactsection {
   height: auto;
-  background: #ffdb67;
+  /* background: #ffdb67; */
+  background: #705e4c;
   padding: 0 0 50px;
+  color: #f5f5dc;
+}
+#contactsection h3 {
+  color: #f5f5dc;
+}
+.bright {
+  color: #f5f5dc !important;
 }
 
 .contactdetail__title {
@@ -618,6 +694,9 @@ textarea {
 .contactdetail__sosmed li a {
   color: #181715;
   font-size: 30px;
+}
+#footerwrap {
+  background: #705e4c !important;
 }
 /*
 * ----------------------------------------------------------------------------------------
