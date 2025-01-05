@@ -79,6 +79,11 @@ Filename      : responsive.css
   .porfoliowarp__item {
     width: 100%;
   }
+  .itemshack .porfoliowarp__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
   .buyitem {
     display: flex;
     justify-content: center;
