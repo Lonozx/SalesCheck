@@ -79,7 +79,7 @@ Filename      : responsive.css
   .porfoliowarp__item {
     width: 100%;
   }
-  .infohero{
+  .infohero {
     padding-right: 10px;
   }
   .itemshack .porfoliowarp__item {
@@ -91,12 +91,13 @@ Filename      : responsive.css
     display: flex;
     justify-content: center;
     align-self: center;
-    border: 1px solid #59191f;
-    background: #59191f;
-    color: white;
-    border-radius: 35px;
-    padding: 10px;
-    width: 130px;
+    /* border: 1px solid #59191f;
+    background: #59191f; */
+    /* color: white; */
+    border-radius: 0;
+    padding: 0;
+    width: 100%;
+    height: 46px;
   }
 }
 
