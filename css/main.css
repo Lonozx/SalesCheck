@@ -200,6 +200,7 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 3;
+  background: #f5f5dc;
 }
 /*
 * ----------------------------------------------------------------------------------------
@@ -235,10 +236,10 @@ textarea {
   background: #59191f;
 }
 
-.navpage__wrap li a.activelink {
-  /* color: #ffffff;
-  background: #59191f; */
-}
+/* .navpage__wrap li a.activelink {
+  color: #ffffff;
+  background: #59191f;
+} */
 
 .navicon {
   position: absolute;
@@ -391,7 +392,7 @@ textarea {
   text-transform: uppercase;
 }
 .heroimg__poto {
-  background: #f5f5dc;
+  /* background: #f5f5dc; */
 }
 .herolink {
   display: inline-block;
@@ -442,8 +443,7 @@ textarea {
 .servicesection {
   background: #705e4c !important;
 }
-#headermain {
-}
+
 .infohero__title {
   text-shadow: none !important;
 }
@@ -453,13 +453,16 @@ textarea {
   width: 350px;
   object-fit: cover;
   box-shadow: none !important;
-  border: 7px solid;
+  border: none;
 }
 .infohero .h2-margarita {
   color: #f5f5dc;
 }
 .hidden {
   display: none;
+}
+.contactdetail__span a {
+  color: #f5f5dc !important;
 }
 .paypal {
   display: flex;
